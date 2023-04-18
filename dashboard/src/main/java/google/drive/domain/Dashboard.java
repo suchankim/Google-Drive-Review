@@ -20,5 +20,5 @@ public class Dashboard {
     private Boolean isIndexed;
     private Boolean isUploaded;
     private String videoUrl;
-    private String fileId;
+    private Long fileId;
 }

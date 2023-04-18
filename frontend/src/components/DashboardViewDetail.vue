@@ -25,7 +25,7 @@
                 <String label="VideoUrl" v-model="item.videoUrl" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <String label="FileId" v-model="item.fileId" :editMode="editMode" @change="change" />
+                <Number label="FileId" v-model="item.fileId" :editMode="editMode" @change="change" />
             </div>
         </v-card-text>
     </v-card>

@@ -99,7 +99,7 @@
             this.values = temp.data._embedded.videos;
             
             this.newValue = {
-                'fileId': '',
+                'fileId': 0,
                 'url': '',
             }
         },
