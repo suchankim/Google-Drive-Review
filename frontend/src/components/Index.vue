@@ -19,7 +19,7 @@
         <v-card-text>
             <String label="FileName" v-model="value.fileName" :editMode="editMode"/>
             <String label="Location" v-model="value.location" :editMode="editMode"/>
-            <String label="FileId" v-model="value.fileId" :editMode="editMode"/>
+            <Number label="FileId" v-model="value.fileId" :editMode="editMode"/>
             <String label="Keywords" v-model="value.keywords" :editMode="editMode"/>
         </v-card-text>
 

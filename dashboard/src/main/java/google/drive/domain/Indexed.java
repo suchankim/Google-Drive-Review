@@ -10,5 +10,6 @@ public class Indexed extends AbstractEvent {
     private Long id;
     private String fileName;
     private String location;
-    private String fileId;
+    private Long fileId;
+    private List<String> keywords;
 }

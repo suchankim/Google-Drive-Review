@@ -105,7 +105,7 @@
             this.newValue = {
                 'fileName': '',
                 'location': '',
-                'fileId': '',
+                'fileId': 0,
                 'keywords': [],
             }
         },

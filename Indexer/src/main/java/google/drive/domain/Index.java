@@ -20,7 +20,7 @@ public class Index {
 
     private String location;
 
-    private String fileId;
+    private Long fileId;
 
     @ElementCollection
     private List<String> keywords;
